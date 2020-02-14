@@ -1,4 +1,5 @@
-# Clicky Game
+1. I added parameters of { Component, useState } to the first line of index.js becuase of the instructions below. Is that the correct approach?
+
 
 ## Overview
 
