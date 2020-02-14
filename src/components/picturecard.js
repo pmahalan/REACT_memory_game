@@ -5,8 +5,7 @@ function PictureCard(props) {
         <div className="card col-sm-3">
 
         <img src={props.image} onClick={() => props.clickImage(props.id)} />
-
-
+  
 
         </div>
 
