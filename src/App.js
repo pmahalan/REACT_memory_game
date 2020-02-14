@@ -12,15 +12,17 @@ class App extends Component {
   render() {
     return (
 
-      <div>
-
-        {this.state.pictures.map(picture => (
-          <PictureCard
-            id={picture.id}
-            image={picture.image}
+      <div className="container">
+        <div className="row">
+          {this.state.pictures.map(picture => (
+            <PictureCard
+              id={picture.id}
+              image={picture.image}
             />
-        
-        ))}
+
+          ))}
+
+        </div>
       </div>
     );
   }
