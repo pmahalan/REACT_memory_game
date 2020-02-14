@@ -1,5 +1,7 @@
 1. I added parameters of { Component, useState } to the first line of index.js becuase of the instructions below. Is that the correct approach?
 
+2. I know there are supposed to be components -- but what the hell are they supposed to be in this case???
+
 
 ## Overview
 
