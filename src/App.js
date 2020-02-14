@@ -1,39 +1,29 @@
-import React, { useState } from "react";
+import React, { Component } from "react";
 import "./App.css";
+import pictures from "./pictures.json"
+import PictureCard from "./components/picturecard"
 
-function App() {
-  const [developerState, setDeveloperState] = useState({
+class App extends Component {
 
-  });
+  state = {
+    pictures
+  };
 
-  return (
+  render() {
+    return (
 
-  //   <div className="card">
-  //   <div>
-  //     Name: {developerState.name}
-  //   </div>
-  //   <div>
-  //     Status: {developerState.mood}
-  //   </div>
-  //   <div>
-  //     Lifelong learner: {developerState.lifeLongLearner.toString()}
-  //   </div>
-  //   <div>
-  //     Excitement Level: {developerState.excitementLevel}
-  //   </div>
-  //   <div className="btn-group">
-  //     <button onClick={() => setDeveloperState({ ...developerState, mood: "lazy" })} className="btn btn-danger">
-  //       Encourage Laziness
-  //     </button>
-  //     <button onClick={() => setDeveloperState({ ...developerState, mood: "determined" })} className="btn btn-success">
-  //       Fill with Determination
-  //     </button>
-  //   </div>
-  // </div>
+      <div>
 
-  );
+        {this.state.pictures.map(picture => (
+          <PictureCard
+            id={picture.id}
+            image={picture.image}
+            />
+        
+        ))}
+      </div>
+    );
+  }
 }
-
-
 
 export default App;
