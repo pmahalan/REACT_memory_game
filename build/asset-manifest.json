@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pmahalan/REACT_memory_game/static/css/main.c13fdaff.chunk.css",
+    "main.js": "/pmahalan/REACT_memory_game/static/js/main.d5460cde.chunk.js",
+    "main.js.map": "/pmahalan/REACT_memory_game/static/js/main.d5460cde.chunk.js.map",
+    "runtime-main.js": "/pmahalan/REACT_memory_game/static/js/runtime-main.1c7abf03.js",
+    "runtime-main.js.map": "/pmahalan/REACT_memory_game/static/js/runtime-main.1c7abf03.js.map",
+    "static/js/2.a45c9348.chunk.js": "/pmahalan/REACT_memory_game/static/js/2.a45c9348.chunk.js",
+    "static/js/2.a45c9348.chunk.js.map": "/pmahalan/REACT_memory_game/static/js/2.a45c9348.chunk.js.map",
+    "index.html": "/pmahalan/REACT_memory_game/index.html",
+    "precache-manifest.006cde4d1577c1f1a4779c91b399a4c1.js": "/pmahalan/REACT_memory_game/precache-manifest.006cde4d1577c1f1a4779c91b399a4c1.js",
+    "service-worker.js": "/pmahalan/REACT_memory_game/service-worker.js",
+    "static/css/main.c13fdaff.chunk.css.map": "/pmahalan/REACT_memory_game/static/css/main.c13fdaff.chunk.css.map",
+    "static/js/2.a45c9348.chunk.js.LICENSE.txt": "/pmahalan/REACT_memory_game/static/js/2.a45c9348.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c7abf03.js",
+    "static/js/2.a45c9348.chunk.js",
+    "static/css/main.c13fdaff.chunk.css",
+    "static/js/main.d5460cde.chunk.js"
+  ]
+}

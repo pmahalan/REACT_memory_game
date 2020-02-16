@@ -67,6 +67,7 @@ class App extends Component {
               id={picture.id}
               image={picture.image}
               clickImage={this.clickImage}
+              //key={this.key}
             />
 
           ))}
