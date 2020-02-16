@@ -11,9 +11,6 @@ class App extends Component {
     score: 0
   };
 
-
-
-
   clickImage = id => {
     console.log(id)
     // check if id is in clickPics 
@@ -45,8 +42,6 @@ class App extends Component {
     }
     return a;
   }
-
-
 
   render() {
     return (
