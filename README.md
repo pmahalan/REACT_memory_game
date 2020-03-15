@@ -1,6 +1,9 @@
 # REACT Clicky Game
 Homework #20 -- React
 
+## Deployed Heroku Application
+https://cryptic-thicket-80879.herokuapp.com/
+
 ### GH Pages URL: https://pmahalan.github.io/REACT_memory_game/
 
 The purpose of this assignment was to create a website in REACT which operated based on the state of various components. I created a component called "PictureCard", which dealt with each of the images on my app's homepage, as well as the on-click events associated with them. 
